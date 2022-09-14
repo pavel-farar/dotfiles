@@ -1,3 +1,10 @@
+" Set directories for undo and backup files.
+" These directories must be created manually. The '//' at the end means
+" that the created files will contain the full path to the edited files.
+set undodir=~/.vim/undo//
+set backupdir=~/.vim/backup//
+
+" Plugins
 call plug#begin()
 
 Plug 'dense-analysis/ale'
